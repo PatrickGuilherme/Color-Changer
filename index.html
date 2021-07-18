@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocando valores de variaveis</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="caixa-principal">
+        <div class="caixa-titulos">
+            <h1 class="titulo">TROCA DE CORES</h1>
+            <h3 class="subtitulo">Micro projeto que envolve trocar os valores de uma variavel</h3>
+            <hr>
+        </div>
+
+        <div class="caixa-cores">
+            <div class="caixa-cores-esquerda">
+                <p class="titulo-cor">Cor A</p>
+                <div class="bloco-cor-A" id="caixaA"></div>
+                <span id="corRGB-a">rgb(68, 114, 196)</span>
+            </div>
+            <div class="caixa-cores-direita">
+                <p class="titulo-cor">Cor B</p>
+                <div class="bloco-cor-B" id="caixaB"></div>
+                <span id="corRGB-b">rgb(192, 0, 0)</span>
+            </div>
+        </div>
+
+        <div class="caixa-input">
+            <button onclick="MudarCor()">Trocar</button>
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
