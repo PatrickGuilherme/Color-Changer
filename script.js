@@ -15,3 +15,11 @@ function MudarCor(){
    document.getElementById("caixaA").style.backgroundColor = corCaixaA;
    document.getElementById("caixaB").style.backgroundColor = corCaixaB;
 }
+
+function BuscarCorCaixa(idCaixa){
+     let tagCaixa = document.getElementById(idCaixa);
+     
+     let styleCaixa = window.getComputedStyle(tagCaixa);
+
+     return styleCaixa.backgroundColor;    
+}
