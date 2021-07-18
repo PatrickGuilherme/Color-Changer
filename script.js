@@ -16,9 +16,12 @@ function MudarCor(){
    document.getElementById("caixaB").style.backgroundColor = corCaixaB;
 }
 
+//Buscar cores das caixas
 function BuscarCorCaixa(idCaixa){
+     //Busca o elemento
      let tagCaixa = document.getElementById(idCaixa);
      
+     //Busca e guarda o backgroundColor (RGB)
      let styleCaixa = window.getComputedStyle(tagCaixa);
 
      return styleCaixa.backgroundColor;    
